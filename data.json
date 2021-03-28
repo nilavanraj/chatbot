@@ -1,0 +1,35 @@
+﻿{
+    "non_key": {
+        "keyword": [ "the", "of", "a", "an", "be", "to", "they", "is" ]
+    },
+    "1": {
+        "keyword": [ "boss", "hey", "hi" ],
+        "answer": "Hey pal ☺️ how can i help u!",
+        "type": 1
+    },
+    "2": {
+        "keyword": [ "bye", "see", "you" ],
+        "answer": "See you soon 👋",
+        "type": 1
+    },
+    "3": {
+        "keyword": [ "bill", "check" ],
+        "answer": "Checking your bill",
+        "type": 1
+    },
+    "4": {
+        "keyword": [ "complaint", "check", "status" ],
+        "answer": "Checking your complaint status ",
+        "type": 1
+    },
+    "5": {
+        "keyword": [ "complaint", "book" ],
+        "answer": "ohh whats your complaint about 😕 ",
+        "type": 6
+    },
+    "6": {
+        "keyword": [   ],
+        "answer": "your complaint has been registered succesfully  ",
+        "type": 0
+    }
+}

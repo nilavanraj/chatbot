@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="index.css">
+
+<style>
+</style>
+</head>
+<body>
+  <meta name="viewport" content="user-scalable-no">
+  <link rel="stylesheet" href="deps/bootstrap-3.3.7/css/bootstrap.min.css">
+ <script type="module" src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.esm.js"></script>
+<script nomodule src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@ionic/core/css/ionic.bundle.css"/>
+<link rel="stylesheet" type="text/css" href="js_message_style.css">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+</head>
+
+
+  <div class="page-header">
+    <h3>Chat bot</h3>
+<button onclick="reset_place()">Reset</button>
+  </div>
+  <ul id="main_plane"  style="list-style-type:none; position: relative;">
+
+     </ul>
+   
+<div class="container_1">
+<div id="send_icon"> </div>
+    <div id="w-input-container" onclick="setFocus()">
+        <div class="w-input-text-group">
+            <div id="w-input-text" contenteditable onkeyup="send_icon()"></div>
+            <div class="w-placeholder">
+                Type a message
+            </div>
+        </div>
+    </div>
+ </div>
+
+
+
+  <script src="deps/jquery-3.3.1.min.js"></script>
+  <script src="deps/bootstrap-3.3.7/js/bootstrap.min.js"></script>
+
+   
+    <script src="js_message_style.js"></script>
+
+
+
+
+<script src= "index.js"></script>
+
+</body>
+</html>
